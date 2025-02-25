@@ -347,7 +347,43 @@ In python when statement is required (after semicolon), but we don't like to exe
 
 **Example:**
 
-```py
+```n=int(input("entrer un nombre : "))
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
+for i in range(n):
+  fiche ={
+      'nom':"",
+      'app':""  ,
+      'grade':[20,14,12,20,20,6]
+  }
+  #calcul de la moyenne
+  s=0.
+  for x in fiche['grade']:
+      s=s+x
+  moyenne=s/6
+  print(moyenne)
 for number in range(6):
     pass
 ```
