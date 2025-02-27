@@ -398,9 +398,31 @@ for number in range(6):
 2. Iterate 10 to 0 using for loop, do the same using while loop.
 3. Write a loop that makes seven calls to print(), so we get on the output the following triangle:
 
-   ```py
-     #for i in range(1, 8):
-    print("#" * i)
+   ```# Iterate 0 to 10 using for loop
+for i in range(11):
+  print(i)
+
+# Iterate 0 to 10 using while loop
+i = 0
+while i <= 10:
+  print(i)
+  i += 1
+
+# Iterate 10 to 0 using for loop
+for i in range(10, -1, -1):
+  print(i)
+
+# Iterate 10 to 0 using while loop
+i = 10
+while i >= 0:
+  print(i)
+  i -= 1
+
+# Print triangle
+for i in range(1, 8):
+  print("#" * i)
+
+     
      
    
 
